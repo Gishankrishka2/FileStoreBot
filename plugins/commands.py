@@ -98,8 +98,8 @@ __🚸 Pᴏʀɴ Cᴏɴᴛᴇɴᴛ Nᴏᴛ Aʟʟᴏᴡᴇᴅ Oɴ Tʜᴇ Bᴏᴛ__
             else:
                 user = await c.get_users(int(chat_id)) 
                 caption += "\n\n\n**--Uᴘʟᴏᴀᴅᴇʀ Dᴇᴛᴀɪʟs:--**\n\n"
-                caption += f"**🍁 Nᴀᴍᴇ:** [{user.from_user.first_name}](tg://user?id={user.from_user.id})\n\n"
-                caption += f"**🖋 Usᴇʀ Nᴀᴍᴇ:** @{user.username}\n\n" if user.username else ""
+                caption += f"**🍁 Nᴀᴍᴇ:** [{m.from_user.first_name}](tg://user?id={user.from_user.id})\n\n"
+                caption += f"**🖋 Usᴇʀ Nᴀᴍᴇ:** @{m.username}\n\n" if user.username else ""
 
 
         await send_msg.delete()
